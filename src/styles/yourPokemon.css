@@ -1,0 +1,27 @@
+.yourPokemon{
+    margin-top: 90px;
+}
+.yourPokemon h2{
+    text-align: center;
+}
+.yourPokemon p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.list{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.list button{
+    border-radius: 20px;
+    width: 145px;
+    font-size: 15px;
+}
+@media only screen and (min-width: 700px){
+    .list button{
+        border-radius: 20px;
+        width: 180px;
+        font-size: 20px;
+    }
+}

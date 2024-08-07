@@ -1,0 +1,47 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+    cursor: pointer;
+    position: absolute;
+}
+.navbar .leftNav{
+    display: flex;
+    flex: 50%;
+    height: 60px;
+    justify-content: left;
+    align-items:center;  
+}
+.navbar .leftNav img{
+    height: 60px;
+    width: 300px;
+    mix-blend-mode:color;
+}
+
+.navbar .rightNav{
+    display: flex;
+    flex: 50%;
+    height: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .rightNav a {
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 700px){
+    .navbar .rightNav  a  {
+        font-size: 15px;
+        margin: 0;
+        padding-right: 40px;
+    }
+    .navbar .leftNav img{
+        width: 130px;
+    }
+}

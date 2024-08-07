@@ -1,0 +1,43 @@
+.pokemonCard{
+    margin-top: 40px;
+}
+.Card{
+    box-shadow: 0 5px 5px gray;
+    background-color: lightgray;
+    top: 20px;
+    margin: 30px; 
+}
+.cardHeader{
+    height: 250px;
+}
+.Card h1{
+    text-align: center;
+}
+.cardBody p{
+    line-height: 20px;
+}
+.img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.add,
+.remove{
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+    }
+
+@media only screen and (min-width: 600px){
+    .card{
+        width: 500px;
+        margin-left: 250px;
+    }
+    .img{
+        margin-left: 150px;
+    }
+    .add,
+    .remove{
+        margin-left: 150px;
+    }
+}
