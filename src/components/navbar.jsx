@@ -10,7 +10,7 @@ function Navbar() {
           <img src={Logo} style={{border:"none"}}/>
         </div>
         <div className='rightNav'>
-          <Link to= "/pokemon">Home</Link>
+          <Link to= "/">Home</Link>
           <Link to="/team">Your Pokemon</Link>
         </div>
     </div>

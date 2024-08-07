@@ -43,7 +43,7 @@ setPokemonTeam(!pokemonTeam.some(p => p.id === pokemon.id))  }
        <Router>
       <Navbar/>
       <Routes>
-        <Route path="/pokemon" element={<Home addToTeam={addToTeam}  removeFromTeam={ removeFromTeam}/>} />
+        <Route path="/" element={<Home addToTeam={addToTeam}  removeFromTeam={ removeFromTeam}/>} />
         <Route path="/pokemon/:name" element={<PokemonDetails addToTeam={addToTeam} removeFromTeam={removeFromTeam} pokemonTeam={pokemonTeam} isInTeam={ isInTeam}/>} />
         <Route path="/team" element={<Team pokemonTeam={pokemonTeam}  viewPokemon ={ viewPokemon } removePokemon={removePokemon}/>} />
       </Routes>
